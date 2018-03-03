@@ -1,7 +1,13 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 
-@import "pages";
+@import "bootstrap/functions";
+
+@import "bootstrap_customizations";
 
 @import "bootstrap";
+
+@import "bootstrap_customizations_after";
+
+@import "pages";
 
 @import "signin_and_signup";
